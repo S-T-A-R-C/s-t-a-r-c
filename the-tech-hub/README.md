@@ -6,20 +6,36 @@ We are Providing some Materials To make sure we are collaborating and making the
 
 If you want to collaborate with us then you can join us and help us in order to achieve the goal of our organization.
 
+### Step 0
+
+#### Set-up
+
+> To get started read this `Documentation` in order to work with us
+
+- Before starting this project make sure you have the `Node js` installed in your PC/Laptop.
+
+- This project is build with `vite+react` and is running on `Typescript`.
+
 ### Step 1
 
 Clone the Repo by the given command line.
 
 ```
-    git clone https://github.com/The-Tech-Hub-org/the-tech-hub-org.git
+    git clone -b master https://github.com/The-Tech-Hub-org/the-tech-hub-org.git
+```
+
+> If more than one branches then try this
+
+```
+    git clone -b master --single-branch https://github.com/The-Tech-Hub-org/the-tech-hub-org.git
 ```
 
 > Note this a **React + Vite** combination
 
 If you do not know what is `React` then you can read some documentation about them
 
-1: (React Documentations)[https://react.dev/]
-2: (Vite Documentations)[https://vitejs.dev/]
+- : [React Documentations](https://react.dev/)
+- : [Vite Documentations](https://vitejs.dev/)
 
 **In Summary:**
 
@@ -33,8 +49,7 @@ After installing the Repo
 > You will get a folder structure like this
 
 ```
-the-tech-hub-org
-the-tech-hub
+cd the-tech-hub-org\the-tech-hub
 ```
 
 > You just need to move on the `the-tech-hub` in order to run the **React-app + Vite**
@@ -86,5 +101,5 @@ git log
 
 IF you are done with your Project and wanted to merge branches then you should take permission from the owners amd managers of this repo.
 
-- (Yipmong Said)[https://github.com/Syipmong]
-- (Hassaan)[https://github.com/Dev-Hassaan]
+- [Yipmong Said](https://github.com/Syipmong)
+- [Hassaan](https://github.com/Dev-Hassaan)
