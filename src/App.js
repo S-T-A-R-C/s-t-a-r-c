@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
+// import Header from './components/Header';
 // import Footer from './components/Footer';
-import Home from './components/Home';
+// import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
@@ -10,20 +10,20 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 // import Article from './components/Article';
 import WaitList from './components/WaitList';
-import BottomNavigation from './components/BottomNavigation';
+// import BottomNavigation from './components/BottomNavigation';
 import ArticlePage from './components/ArticlePage';
 import ArticlesList from './components/ArticleList';
 import ArticleCRUD from './components/ArticleCRUD';
 import StudentDashboard from './components/StudentDashboard';
-// import LandingPage from './components/LandingPage';
+import LandingPage from './components/LandingPage';
 
 const App = () => {
   return (
     <Router>
-      <Header />
+      {/* <Header/> */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path='/' element={<LandingPage/>} /> */}
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path='/' element={<LandingPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
@@ -40,7 +40,7 @@ const App = () => {
         {/* <Route path="/read" element={<ReadArticle />} /> */}
       </Routes>
       {/* <Footer /> */}
-      <BottomNavigation/>
+      {/* <BottomNavigation/> */}
     </Router>
   );
 };

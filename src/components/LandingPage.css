@@ -1,4 +1,92 @@
-h1{
-    background-color: blue;
+:root {
+    /* Primary Colors */
+    --primary-color: #3498db; /* Main blue color */
+    --accent-color: #e74c3c;  /* Accent red color */
+  
+    /* Background Colors */
+    --background-color: #ecf0f1; /* Light gray background */
+    --content-background: #ffffff; /* White content background */
+  
+    /* Text Colors */
+    --text-color: #333333; /* Dark text color */
+    --heading-color: #2c3e50; /* Darker heading color */
+    --link-color: #2980b9; /* Blue link color */
+  
+    /* Border Colors */
+    --border-color: #bdc3c7; /* Light border color */
+  
+    /* Button Colors */
+    --button-bg: #27ae60; /* Green button background */
+    --button-text: #ffffff; /* White button text color */
+  
+    /* Hover/Focus Colors */
+    --hover-color: #ecf0f1; /* Light gray for hover effect */
+    --focus-color: #3498db; /* Blue for focus effect */
+  }
+/* LandingPage.css */
+.landing-container {
+    background-color: var(--background-color);
+    padding: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+  }
+  
+  .landing-nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .link {
+    margin: 0 15px;
+  }
+  
+  .nav__btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+.hero-section {
+    
+    background-size: cover;
+    color: var(--text-color);
     text-align: center;
-}
+    padding: 100px 20px;
+    position: relative;
+  }
+  
+  .hero-btn,
+  .cta-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .hero-btn:hover,
+  .cta-btn:hover {
+    background-color: #2ecc71; /* Darker green on hover */
+  }
+  
+  .cta-section {
+    background-color: var(--accent-color);
+    color: var(--button-text);
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .registered-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
